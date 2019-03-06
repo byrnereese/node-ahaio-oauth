@@ -14,7 +14,7 @@ $ npm install aha-io-oauth --save
 Require the package in your application.
 
 ```javascript
-var AhaOAuthClient = require('aha-io');
+var AhaOAuthClient = require('aha-io-oauth');
 ```
 
 ## Create an App
