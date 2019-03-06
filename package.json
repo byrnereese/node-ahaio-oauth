@@ -1,0 +1,51 @@
+{
+   "name": "aha-io-oauth",
+   "version": "0.0.1",
+   "description": "A node wrapper to assist in Aha.io's OAuth flow",
+   "license": "MIT",
+   "main": "dist/index.js",
+   "scripts": {
+      "build": "rm -rf dist && npx babel src --out-dir dist --source-maps",
+      "release": "webpack --progress --colors",
+      "test": "rm -rf dist && npx babel src --out-dir dist --source-maps && npx mocha"
+   },
+   "engines": {
+      "node": "6.0.0",
+      "npm": "3.8.6"
+   },
+   "keywords": [
+      "aha",
+      "aha.io",
+      "project management",
+      "oauth",
+      "auth"
+   ],
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/byrnereese/node-ahaio-oauth"
+   },
+   "author": "Byrne Reese <byrne@majordojo.com>",
+   "contributors": [
+      {
+         "name": "Byrne Reese",
+         "email": "byrne@majordojo.com"
+      }
+   ],
+   "dependencies": {
+      "axios": "^0.18.0",
+      "urijs": "^1.19.1",
+      "chai": "^3.5.0",
+      "mocha": "^2.4.5",
+      "moment": "^2.13.0"
+   },
+   "devDependencies": {
+      "@babel/cli": "^7.2.3",
+      "@babel/core": "^7.3.4",
+      "@babel/preset-env": "^7.3.4",
+      "@babel/register": "^7.0.0",
+      "babel-core": "7.0.0-bridge.0",
+      "babel-jest": "^23.6.0",
+      "webpack": "^4.29.4",
+      "webpack-cli": "^3.2.3"
+   }
+}
