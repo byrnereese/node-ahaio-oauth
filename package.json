@@ -9,10 +9,6 @@
       "release": "webpack --progress --colors",
       "test": "rm -rf dist && npx babel src --out-dir dist --source-maps && npx mocha"
    },
-   "engines": {
-      "node": "6.0.0",
-      "npm": "3.8.6"
-   },
    "keywords": [
       "aha",
       "aha.io",
