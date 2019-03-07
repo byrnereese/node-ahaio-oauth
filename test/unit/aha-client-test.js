@@ -4,7 +4,7 @@ var _ = require('lodash');
 var expect = require('chai').expect;
 var moment = require('moment');
 
-var AhaOAuthClient = require('../../dist/index');
+var AhaOAuthClient = require('../../dist/index').default;
 
 describe('dist/index.js', function() {
    context('constructor', function() {
