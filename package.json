@@ -1,6 +1,6 @@
 {
    "name": "aha-io-oauth",
-   "version": "0.0.3",
+   "version": "0.0.4",
    "description": "A node wrapper to assist in Aha.io's OAuth flow",
    "license": "MIT",
    "main": "dist/index.js",
